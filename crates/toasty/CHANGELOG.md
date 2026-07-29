@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.10.0](https://github.com/tokio-rs/toasty/compare/toasty-v0.9.0...toasty-v0.10.0) - 2026-07-29
+
+### Added
+
+- Embed migrations in application binaries ([#1095])
+
+### Fixed
+
+- Cursor pagination is now deterministic ([#1142])
+- SQLite and Turso URLs in authority form now resolve to file paths ([#1127])
+- Foreign keys in via includes now work with newtype wrappers ([#1137])
+- Pagination with multiple order by keys ([#1124])
+
+[#1095]: https://github.com/tokio-rs/toasty/pull/1095
+[#1124]: https://github.com/tokio-rs/toasty/pull/1124
+[#1127]: https://github.com/tokio-rs/toasty/pull/1127
+[#1137]: https://github.com/tokio-rs/toasty/pull/1137
+[#1142]: https://github.com/tokio-rs/toasty/pull/1142
+
 ## [0.9.0](https://github.com/tokio-rs/toasty/compare/toasty-v0.8.0...toasty-v0.9.0) - 2026-07-23
 
 ### Added
